@@ -1,4 +1,4 @@
-const { Product, Cart, Customer, Auth } = require('./index.js');
+const { Product, Cart, Customer, Auth } = require('./classes/index.js');
 
 describe("Product Tests", () => {
     test('Can create instance of product class', () => {
